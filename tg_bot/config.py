@@ -10,12 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
+    API_KEY = "5211869898:AAHCu5DsWRSLwfluIYxIFiaIFm1FAbP0lKw"
     OWNER_ID = "925710749" # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "AmazerS_xD"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://zoibwgcensmcfq:7f87f99ad446af82b2005c14f335b566d74693e74275a5349c48eb4a49b0d4c7@ec2-54-216-56-125.eu-west-1.compute.amazonaws.com:5432/d9hdn6pa5hbel2'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
